@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+}
+
+#wrapper {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+body {
+  font-family: Verdana, Geneva, sans-serif;
+ 
+  background:  url('roze3.png');
+  background-size: 100%;
+  width: 1920px;
+}
+
+/*Back to top button*/
+a.top-button {
+  text-decoration: none;
+  color: #5aabb6;
+  border-style: inset;
+  border-radius: 120px;;
+  position: fixed;
+  bottom: 3px;
+  right: 3px;
+}
+
+nav {
+  background-color: transparent;
+}
+
+/* Linkjes in nav */
+nav a {
+  color:   #c34f44d9; ;
+  background-color: #e1cbc3 ;
+  text-decoration: none;
+  margin-top: 3px;
+  margin-left: 3px;
+  margin-bottom: 3px;
+  font-family: Impact, Charcoal, sans-serif;
+  height: 50px;
+  width: 471px;
+  display: inline-block;
+  text-align: center;
+  line-height: 50px;
+  outline-style: inset;
+  outline-width: 2px;
+  font-size: 30px;
+}
+
+/* Geheimpjes button om makkelijk te verplaatsen (ivm dropdown menu) */
+nav a.geheimpjes {
+  position: absolute;
+  top: 0;
+  left: 1443px;
+}
+
+/* Hover over linkjes in nav */
+nav a:hover {
+  font-weight: bold;
+  background-color: rgb(213 144 144 / 80%);
+}
+
+/* Dropdown block*/
+#dropdown {
+  margin-left: 3px;
+  margin-bottom: 3px;
+  height: 50px;
+  width: 471px;
+  position: absolute;
+  left: 960px;
+  top: 3px;
+}
+
+/* Dropdown button (Galerij) */
+#dropdown #dropbtn {
+  color:   #c34f44d9;
+  background-color: #e1cbc3 ;
+  text-decoration: none;
+  margin-left: 3px;
+  margin-bottom: 0;
+  font-family: Impact, Charcoal, sans-serif;
+  height: 50px;
+  width: 471px;
+  display: inline-block;
+  text-align: center;
+  line-height: 50px;
+  outline-style: inset;
+  outline-width: 2px;
+  font-size: 30px;
+  border: none;
+}
+
+/* Hover over dropdown button */
+#dropdown #dropbtn:hover {
+  font-weight: bold;
+  background-color: rgb(213 144 144 / 80%);
+}
+
+/* Dropdown content block*/
+#dropdown-content {
+  display: none;
+  background-color: rgb(213 144 144 / 80%);
+  width: 471px;
+  height: 50px;
+  margin: 3px;
+  margin-top: 0;
+}
+
+/* Dropdown content linkjes */
+#dropdown-content a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  height: 50px;
+  width: 471px;
+  background-color: #e1cbc3 ;
+  margin: 0;
+}
+
+/* Hover over dropdown content */
+#dropdown-content a:hover {
+  font-weight: bold;
+  background-color: rgb(213 144 144 / 80%);
+}
+
+/* Laat dropdown menu zien bij hover */
+#dropdown:hover #dropdown-content {
+  display: block;
+}
+
+header {
+  background-color: transparent;
+  width: 1920px;
+}
+
+header h1 {
+  margin-top: 100px;
+  font-family: Impact, Charcoal, sans-serif;
+  text-align: center;
+  font-size: 60px;
+  color:  #c34f44d9
+}
+
+main h3 {
+  color: #c34f44d9;
+  width: 1920px;
+  text-align: center;
+  margin: 5px;
+}
+
+main p {
+  color: #c34f44d9;
+  width: 1920px;
+  text-align: center;
+  margin: 10px;
+  float: left;
+  }
+  
+ main ul {
+	 margin: auto;
+	 width: 9%;
+	color:  #c34f44d9
+ }
+	 
+
+/* footer op vaste locatie */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+/* footer tekst */
+footer p {
+  color: #888888;
+}
